@@ -35,7 +35,7 @@
         </div>
     </div>
     <div class="row"></div>
-    <div class="row"></div>
+    <div class="row"><ul runat="server" id="tabs"></ul></div>
     <div class="row">
         <div class="col-md-2">
             <asp:DropDownList runat="server" ID="ddlLista" />
@@ -43,7 +43,7 @@
     </div>
     <div class="row">
         <div class="col-md-2">
-            <asp:Button runat="server" id="BtnAgregar" Text="Agregar" OnClick="Agregar_Click"/>
+            <asp:Button runat="server" type="submit" id="BtnAgregar" Text="Agregar" OnClick="Agregar_Click" ClientIDMode="Static" />
         </div>
     </div>
     <div class="row">
